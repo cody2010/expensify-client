@@ -6,7 +6,7 @@ setup(
   license='MIT',
   description = 'Python wrapper for Expensify API',
   author = 'Alex Lazich',
-  author_email = 'lazich.alexander@gmail.com'
+  author_email = 'lazich.alexander@gmail.com',
   url = 'https://github.com/alazich/expensify-client',
   download_url = 'https://github.com/user/reponame/archive/v_01.tar.gz',
   keywords = ['api', 'accounting', 'expensify'],
