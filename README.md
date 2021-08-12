@@ -16,7 +16,11 @@ their Downloader call)
 
 ## How this package works
 This package provides a client class that intakes 3 parameters: filters, report 
-parameters, transaction parameters. It generates the ftl template from your parameters and returns a json dictionary object.
+parameters, transaction parameters. It generates the ftl template from your parameters and returns a json dictionary object. It is available on PyPI
+
+```
+pip install expensify-client
+```
 
 ### Filters
 Pass in a dictionary object much like Expensify's documentation provides:
