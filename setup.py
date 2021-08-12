@@ -11,6 +11,7 @@ setup(
   license='MIT',
   description = 'Python wrapper for Expensify API',
   long_description=long_description,
+  long_description_content_type='text/markdown',
   author = 'Alex Lazich',
   author_email = 'lazich.alexander@gmail.com',
   url = 'https://github.com/alazich/expensify-client',
