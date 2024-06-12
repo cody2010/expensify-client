@@ -144,7 +144,7 @@ class ExpensifyClient():
         csv_reports = raw_reports.decode("utf-8")
         # YAML loader doesn't allow tabs
         csv_reports = csv_reports.replace('\t', '  ')
-        reports = yaml.load(csv_reports)['reports']
+        reports = yaml.safe_load(csv_reports)['reports']
 
         return reports
 
